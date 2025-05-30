@@ -4,7 +4,7 @@ A distributed computing platform for analyzing EPA (Environmental Protection Age
 
 ## Project Overview
 
-This project addresses the challenge of processing millions of air quality measurements by leveraging the power of distributed computing. Instead of processing data on a single machine, we distribute the workload across multiple nodes in a Hadoop cluster, achieving significant performance improvements.
+This project addresses the challenge of processing millions of air quality measurements by leveraging the power of distributed computing. You can access the data here: https://www.kaggle.com/datasets/epa/epa-historical-air-quality.Instead of processing data on a single machine, we achieve significant performance improvements by distributing the workload across multiple nodes in a Hadoop cluster.
 
 ### Key Features
 
