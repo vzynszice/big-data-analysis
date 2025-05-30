@@ -33,20 +33,6 @@ Uses Terriberry's extension of Welford's method to calculate skewness (third mom
 ### 5. 90th Percentile Computation
 Extends the histogram approach to find the value below which 90% of observations fall - crucial for air quality compliance monitoring.
 
-## System Architecture
-
-┌─────────────────┐     SSH      ┌──────────────────┐     HDFS      ┌──────────────┐
-│                 │ ─────────────▶│                  │ ◀────────────▶│             │
-│   GUI (PyQt5)   │               │  EMR Master Node │                │  Data Nodes  │
-│                 │ ◀─────────────│                  │ ────────────▶ │              │
-└─────────────────┘    Results    └──────────────────┘   MapReduce   └──────────────┘
-│
-▼
-┌─────────────┐
-│  S3 Bucket  │
-│  (Scripts)  │
-└─────────────┘
-
 ## Getting Started
 
 ### Prerequisites
