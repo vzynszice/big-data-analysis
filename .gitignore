@@ -1,0 +1,10 @@
+# Yapılandırma dosyaları (hassas bilgiler içerir)
+config/config.py
+config.py
+
+# SSH anahtarları
+*.pem
+*.key
+
+# AWS credentials
+.aws/
