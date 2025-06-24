@@ -46,7 +46,7 @@ Extends the histogram approach to find the value below which 90% of observations
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/epa-big-data-analysis.git
+git clone https://github.com/vzynszice/epa-big-data-analysis.git
 cd epa-big-data-analysis
 
 2. Install Python dependencies:
